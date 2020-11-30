@@ -1,0 +1,32 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="acc.fin.ar.controller.Add">
+	<App>
+		<pages>
+			<Page title="Add New Product">
+				<content>
+				    <sap.ui.layout.form:SimpleForm editable="true" layout="ResponsiveGridLayout" xmlns:sap.ui.layout.form="sap.ui.layout.form" id="__form1">
+				        <sap.ui.layout.form:content>
+				            <Label text="Product Id" id="__label2"/>
+				            <Input width="100%" value="{localView>/productData/PRODUCT_ID}" id="__input4"/>
+				            <Button icon="sap-icon://paid-leave" tooltip="Most Expensive one" press="onMostExp" />
+				            <Label text="Name" id="__label3"/>
+				            <Input width="100%" value="{localView>/productData/NAME}" id="__input5"/>
+				            <Label text="Price" id="__label6"/>
+				            <Input width="100%" value="{localView>/productData/PRICE}" id="__input6"/>
+				            <Input width="100%" value="{localView>/productData/CURRENCY_CODE}" id="__input7"/>
+				            <Label text="Supplier ID" id="__label7"/>
+				            <Input width="100%" value="{localView>/productData/SUPPLIER_ID}" showValueHelp="true" 
+				            	   valueHelpRequest="onValueHelp" valueHelpOnly="true"
+				            id="__input8"/>
+				        </sap.ui.layout.form:content>
+				    </sap.ui.layout.form:SimpleForm>
+				</content>
+				<footer>
+					<Toolbar>
+						<ToolbarSpacer />
+						<Button text="Save" press="onSave" icon="sap-icon://save"></Button>
+					</Toolbar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

@@ -1,0 +1,29 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:f="sap.ui.layout.form">
+	<VBox>
+		<f:SimpleForm>
+			<f:content>
+				<Label text="{i18n>Name}"></Label>
+				<Text text="{NAME}"></Text>
+				<Label text="Supplier ID"></Label>
+				<Text text="{SUPPLIER_ID}"></Text>
+				<Label text="{i18n>Type}"></Label>
+				<Text text="{TYPE_CODE}"></Text>
+				<Label text="{i18n>Supplier}"></Label>
+				<Text text="{SUPPLIER_NAME}"></Text>
+			</f:content>
+		</f:SimpleForm>
+		<Image id="myImg"></Image>
+		<f:SimpleForm id="suppData">
+		<f:content>
+				<Label text="Supplier Email"></Label>
+				<Text text="{EMAIL_ADDRESS}"></Text>
+				<Label text="WebSite"></Label>
+				<Link text="{WEB_ADDRESS}" href="{WEB_ADDRESS}" target="{WEB_ADDRESS}"></Link>
+				<Label text="City, Country"></Label>
+				<Text text="{CITY} {COUNTRY}"></Text>
+				<Label text="BP Type"></Label>
+				<Text text="{BP_ROLE}"></Text>
+			</f:content>
+		</f:SimpleForm>
+	</VBox>
+</core:FragmentDefinition>

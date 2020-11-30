@@ -1,0 +1,34 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="acc.fin.ar.controller.View1"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="View 1">
+		<headerContent>
+			<Button icon="sap-icon://action" press="onNext" />
+		</headerContent>
+		<content>
+			<!--<Button text="Go To next" press="onNext"></Button>-->
+			<SearchField search="onSearch" ></SearchField>
+			<List id="myFruits" mode="SingleSelectMaster" items="{
+							path : '/ProductSet'
+			}" delete="onDelete" growing="true" growingThreshold="20" selectionChange="onNextItem" itemPress="onNextItem">
+				<items>
+					<ObjectListItem  intro="{CATEGORY}" title="{NAME}" 
+									number="{PRICE}" numberUnit="{CURRENCY_CODE}"
+									icon="sap-icon://product">
+						<firstStatus>
+							<ObjectStatus text="{SUPPLIER_NAME}" state="{
+								path : 'SUPPLIER_NAME',
+								formatter: '.formatter.getStatus'
+							}"></ObjectStatus>
+						</firstStatus>
+					</ObjectListItem>
+				</items>
+			</List>
+		</content>
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer />
+				<Button icon="sap-icon://add" tooltip="Add" press="onAdd"></Button>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

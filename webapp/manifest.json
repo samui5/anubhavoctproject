@@ -1,0 +1,167 @@
+{
+	"_version": "1.7.0",
+	"sap.app": {
+		"id": "acc.fin.ar",
+		"type": "application",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"tags": {
+			"keywords": [
+				"{{fruit}}"
+			]
+		},
+		"ach": "FIN-AR-ACC",
+		"dataSources": {
+			"ZOCT_FIRST_SRV": {
+				"uri": "/sap/opu/odata/sap/ZOCT_FIRST_SRV/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml"
+				}
+			}
+		},
+		"sourceTemplate": {
+			"id": "servicecatalog.connectivityComponent",
+			"version": "0.0.0"
+		}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": [
+			"sap_bluecrystal",
+			"sal_belize"
+		],
+		"icons": {
+			"icon": "sap-icon://accept"
+		}
+	},
+	"sap.ui5": {
+		"dependencies": {
+			"minUI5Version": "1.70.10",
+			"libs": {
+				"sap.m": {
+					"minVersion": ""
+				},
+				"sap.ui.layout": {
+					"minVersion": ""
+				}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"resources": {
+			"css": [
+				{
+					"uri": "style/myfile.css",
+					"id": ""
+				}
+			]
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {},
+				"uri": "i18n/i18n.properties",
+				"preload": false,
+				"async": true
+			},
+			"local": {
+				"type": "sap.ui.model.json.JSONModel",
+				"settings": {},
+				"uri": "models/mockdata/demoData.json",
+				"preload": false
+			},
+			"": {
+				"type": "sap.ui.model.odata.v2.ODataModel",
+				"dataSource": "ZOCT_FIRST_SRV",
+				"preload": true
+			}
+		},
+		"rootView": {
+			"viewName": "acc.fin.ar.view.App",
+			"type": "XML",
+			"id": "idAppView"
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"viewPath": "acc.fin.ar.view",
+				"controlId": "idAppCon"
+			},
+			"routes": [
+				{
+					"pattern": "",
+					"name": "master",
+					"target": [
+						"narendra",
+						"modi"
+					]
+				},
+				{
+					"name": "spiderman",
+					"pattern": "fruitData/{scooby}",
+					"target": [
+						"narendra",
+						"putin"
+					]
+				},
+				{
+					"name": "add",
+					"pattern": "add",
+					"target": [
+						"narendra",
+						"add"
+					]
+				}
+			],
+			"targets": {
+				"narendra": {
+					"viewName": "View1",
+					"viewId": "idView1",
+					"controlAggregation": "masterPages"
+				},
+				"modi": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": true,
+					"viewName": "Empty",
+					"viewLevel": 1,
+					"controlAggregation": "detailPages",
+					"viewId": "idEmpty"
+				},
+				"putin": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": true,
+					"viewName": "View2",
+					"viewId": "idView2",
+					"controlAggregation": "detailPages"
+				},
+				"add": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": true,
+					"viewName": "Add",
+					"viewId": "idAdd",
+					"controlAggregation": "detailPages"
+				}
+			}
+		}
+	},
+	"sap.platform.abap": {
+		"uri": "/sap/bc/ui5_ui5/sap/zmyoctapp/webapp",
+		"_version": "1.1.0"
+	}
+}

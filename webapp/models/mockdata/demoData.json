@@ -1,0 +1,343 @@
+{
+	"fruits": [{
+		"name": "Apple",
+		"color": "red",
+		"healthBenefits": "Apples contain antioxidants called flavonoids",
+		"price": "120 per kg",
+		"currency": "INR",
+		"type": "moderately alkaline",
+		"status": "available",
+		"supplierName": "Pathway India"
+	}, {
+		"name": "Fig (dried)/Anjeer",
+		"color": "brown",
+		"healthBenefits": "High in fibre, figs may help reduce the risk of heart disease.",
+		"price": "1199 per kg",
+		"currency": "INR",
+		"type": "alkaline",
+		"status": "available",
+		"supplierName": "Yashasvi Recycling"
+	}, {
+		"name": "Avocado",
+		"color": "green",
+		"healthBenefits": "Avocados contain healthy monounsaturated fats that can help lower cholesterol levels when eaten instead of harmful saturated fats.For a heart-healthy boost, replace butter with avocado on your favourite sandwich.   ",
+		"price": "350 per kg.",
+		"currency": "INR",
+		"type": "Alkaline",
+		"status": "available",
+		"supplierName": "Pathway India"
+	}, {
+		"name": "Banana",
+		"color": "Yellow",
+		"healthBenefits": "With 422 milligrams of potassium per banana, these sweet delights have more potassium than most fruit and may help lower blood pressure levels.",
+		"price": "50 per dozen",
+		"currency": "INR",
+		"type": "alkaline",
+		"status": "available",
+		"supplierName": "Yashasvi Recycling"
+	}, {
+		"name": "Blackberry",
+		"color": "black",
+		"healthBenefits": "Blackberries get their deep purple colour from the powerful antioxidant anthocyanin, which may help reduce the risk of stroke and cancer. Studies show that blackberry extract may help stop the growth of lung cancer cells.",
+		"price": "800 per kg.",
+		"currency": "INR",
+		"type": "Citrus",
+		"status": "unavailable",
+		"supplierName": "Lone Industries"
+	}, {
+		"name": "Cherry",
+		"color": "Red",
+		"healthBenefits": "cherries contain more of the potent antioxidant anthocyanin than any other fruit. Anthocyanin may help reduce inflammation and ease the pain of arthritis and gout.",
+		"price": "655 per kg",
+		"currency": "INR",
+		"type": "Citrus",
+		"status": "available",
+		"supplierName": "Lone Industries"
+	}, {
+		"name": "Grape",
+		"color": "green",
+		"healthBenefits": "Grapes contain resveratrol, an antioxidant that may help prevent heart disease by reducing blood pressure levels and lowering the risk of blood clots. Resveratrol may also help stop the spread of breast, stomach and colon cancer cells.",
+		"price": "120 per kg.",
+		"currency": "INR",
+		"type": "alkaline",
+		"status": "available",
+		"supplierName": "Lone Industries"
+	}, {
+		"name": "Kiwifruit",
+		"color": "Green",
+		"healthBenefits": " With more vitamin C than oranges, kiwis can help in the development and maintenance of bones, cartilage, teeth and gums. They can also help lower blood triglyceride levels (high triglycerides increase the risk of heart disease).t",
+		"price": "550 per kg",
+		"currency": "INR",
+		"type": "alkaline",
+		"status": "available",
+		"supplierName": "Gurukripa Ropvatika"
+	}, {
+		"name": "Mango",
+		"color": "yellow",
+		"healthBenefits": "Mangoes are high in the antioxidants lutein and zeaxanthin, which may help protect vision and reduce the risk of age-related macular degeneration (the leading cause of blindness in adults).",
+		"price": "120 Per Kg",
+		"currency": "INR",
+		"type": "Citrus",
+		"status": "unavailable",
+		"supplierName": "Bhairavnath Nursery"
+	}, {
+		"name": "Orange",
+		"color": "Orange",
+		"healthBenefits": "Oranges are a good source of folate, an important vitamin for pregnant women that can help prevent neural tube defects in their infants. They also contain a phytochemical called hesperidin, which may lower triglyceride and blood cholesterol levels.",
+		"price": "70 per kg",
+		"currency": "INR",
+		"type": "alkaline",
+		"status": "available",
+		"supplierName": "Gurukripa Ropvatika"
+	}, {
+		"name": "Papaya",
+		"color": "Yellowish green",
+		"healthBenefits": " Papayas contain papain, an enzyme that aids digestion. Plus, their high vitamin A content aids in maintaining the health of the skin.",
+		"price": "60 per kg",
+		"currency": "INR",
+		"type": "Citrus",
+		"status": "available",
+		"supplierName": "Bhairavnath Nursery"
+	}, {
+		"name": "Grapefruit (pink)",
+		"color": "pink",
+		"healthBenefits": "Pink grapefruit contains lycopene and flavonoids, which may help protect against some types of cancer. Grapefruit also boasts an ample supply of pectin, a soluble fibre that may help lower cholesterol levels.",
+		"price": "240 per kg",
+		"currency": "INR",
+		"type": "alkaline",
+		"status": "unavailable",
+		"supplierName": "Maruti Agri Exim"
+	}, {
+		"name": "Peach",
+		"color": "resddish yelloow",
+		"healthBenefits": "High in vitamin A, peaches help regulate the immune system and can help fight off infections.",
+		"price": "250 per kg.",
+		"currency": "INR",
+		"type": "Neutral",
+		"status": "unavailable",
+		"supplierName": "Enrich Global Export"
+	}, {
+		"name": "Pear",
+		"color": "green",
+		"healthBenefits": "Much of the fibre found in pears is soluble, which can help prevent constipation. Soluble fibre may also help reduce blood cholesterol levels and prevent heart disease. ",
+		"price": "160 per kg",
+		"currency": "INR",
+		"type": "Alkaline",
+		"status": "available",
+		"supplierName": "Bhairavnath Nursery"
+	}, {
+		"name": "Prune",
+		"color": "black",
+		"healthBenefits": "Prunes are a source of the mineral boron, which may help prevent osteoporosis. Prunes also impart a mild laxative effect due to their high content of a natural sugar called sorbitol. ",
+		"price": "420 per kg.",
+		"currency": "INR",
+		"type": "Citrus",
+		"status": "available",
+		"supplierName": "Yashasvi Recycling"
+	}, {
+		"name": "Raspberry",
+		"color": "Red",
+		"healthBenefits": "Raspberries are rich in ellagic acid, an antioxidant that may help prevent cervical cancer. Promising studies in animals have led researchers to believe that raspberries may also help treat esophageal and colon cancer.",
+		"price": "150 per kg.",
+		"currency": "INR",
+		"type": "Neutral",
+		"status": "unavailable",
+		"supplierName": "Maruti Agri Exim"
+	}, {
+		"name": "Watermelon",
+		"color": "greenish",
+		"healthBenefits": "Watermelon is 92 per cent water, making it aptly named. It's a great addition to any weight-loss diet because it is low in calories and satisfies the sweet tooth.",
+		"price": "15 per kg",
+		"currency": "INR",
+		"type": "Alkaline",
+		"status": "unavailable",
+		"supplierName": "Kevico International"
+	}, {
+		"name": "Strawberry",
+		"color": "Red",
+		"healthBenefits": "Strawberries are rich in several antioxidants that have anti-inflammatory properties, including helping to prevent atherosclerosis (hardened arteries) and to suppress the progression of cancerous tumours.",
+		"price": "300 per kg",
+		"currency": "INR",
+		"type": "Neutarl",
+		"status": "available",
+		"supplierName": "Lone Industries"
+	}, {
+		"name": "Pomegranate",
+		"color": "red",
+		"healthBenefits": "Pomegranates contain antioxidant tannins, which may protect the heart. Studies show that daily consumption of pomegranate juice may promote normal blood pressure levels and reduce the risk of heart attacks.",
+		"price": "150 per kg.",
+		"currency": "INR",
+		"type": "alkaline",
+		"status": "available",
+		"supplierName": "Maruti Agri Exim"
+	}, {
+		"name": "Pineapple",
+		"color": "greenish-yellow",
+		"healthBenefits": " Pineapple contains a natural enzyme called bromelain, which breaks down protein and helps aid digestion. Bromelain may also help prevent blood clots, inhibit growth of cancer cells and speed wound healing.",
+		"price": "28 per kg",
+		"currency": "INR",
+		"type": "citrus",
+		"status": "available",
+		"supplierName": "Kevico International"
+	}, {
+		"name": "Blueberries",
+		"color": "greenish-yellow",
+		"healthBenefits": " Pineapple contains a natural enzyme called bromelain, which breaks down protein and helps aid digestion. Bromelain may also help prevent blood clots, inhibit growth of cancer cells and speed wound healing.",
+		"price": "28 per kg",
+		"currency": "INR",
+		"type": "berries",
+		"status": "available",
+		"supplierName": "Kevico International"
+	}, {
+		"name": "Blackberries",
+		"color": "greenish-yellow",
+		"healthBenefits": " Pineapple contains a natural enzyme called bromelain, which breaks down protein and helps aid digestion. Bromelain may also help prevent blood clots, inhibit growth of cancer cells and speed wound healing.",
+		"price": "28 per kg",
+		"currency": "INR",
+		"type": "berries",
+		"status": "available",
+		"supplierName": "Kevico International"
+	}],
+	"cities": [{
+		"name": "Agra",
+		"type": "Tier-2",
+		"state": "Uttar Pradesh",
+		"famousFor": "City of Love, City of Taj",
+		"population": "15.9 lakhs"
+	}, {
+		"name": "Lucknow",
+		"type": "Tier-1",
+		"state": "Uttar Pardesh",
+		"famousFor": "City of Nawabs, Golden City of East City of Tehzeeb ,Happiest City",
+		"population": "28.2 lakhs"
+	}, {
+		"name": "Varanasi",
+		"type": "Tier-2",
+		"state": "Uttar Pardesh",
+		"famousFor": "The City of Ghats, The City of Shiva, The City of light,The City of Temples, The City of Music, Spiritual Capital of India",
+		"population": "12 lakhs"
+	}, {
+		"name": "Amritsar",
+		"type": "Tier-2",
+		"state": "Punjab",
+		"famousFor": "City of Golden temple",
+		"population": "11.3 lakhs"
+	}, {
+		"name": "Jaipur",
+		"type": "Tier-1",
+		"state": "Rajasthan",
+		"famousFor": "Pink City, Paris of India, Capital City, Largest City",
+		"population": "30.7 lakhs"
+	}, {
+		"name": "Surat",
+		"type": "Tier-1",
+		"state": "Gujarat",
+		"famousFor": "Diamond City of the WorldGujarat",
+		"population": "44.6 lakhs"
+	}, {
+		"name": "Kurukshetra",
+		"type": "Tier-2",
+		"state": "Haryana",
+		"famousFor": "City of Mahabharata",
+		"population": "9.65 lakhs"
+	}, {
+		"name": "Visakhapatnam",
+		"type": "Tier-2",
+		"state": "Andhra Pradesh",
+		"famousFor": "Financial Capital of Andhra Pradesh, The Jewel of the East Coast, Goa of the East, The City of Destiny",
+		"population": "17.3 lakhs"
+	}, {
+		"name": "Calcutta (Kolkata)",
+		"type": "Tier-1",
+		"state": "West Bengal",
+		"famousFor": "City of Joy, Joyful City, Cultural Capital of India, City of Palaces, City of Castles[citation needed], Mecca of football",
+		"population": "1.49 crores"
+	}, {
+		"name": "Noida",
+		"type": "Tier-2",
+		"state": "uttar paredsh",
+		"famousFor": "IT capital of North India, Singapore of India, India's first smart city",
+		"population": "6.37 lakhs"
+	}],
+	"suppliers": [{
+		"name": "Maruti Agri Exim",
+		"type": "Alphonso Mango",
+		"city": "Talaja, Bhavnagar",
+		"sinceWhen": "2006",
+		"contactName": "Rahul",
+		"emailId": "Maruti_Agri@gmail.com",
+		"phone": "07971472978"
+	}, {
+		"name": "Enrich Global Export",
+		"type": "Fresh Star Fruit",
+		"city": "PL-3,Wardha Road, Nagpur",
+		"sinceWhen": "2010",
+		"contactName": "Anil",
+		"emailId": "Enrich_GlobExport@gmail.com",
+		"phone": "08048923775"
+	}, {
+		"name": "Khedut Haat",
+		"type": "Organic Kesar Mango",
+		"city": "katargam, Surat",
+		"sinceWhen": "2015",
+		"contactName": "kartik",
+		"emailId": "KhedutHaat@gmail.com",
+		"phone": "08048875758"
+	}, {
+		"name": "Mithuna Foods",
+		"type": "Mithuna Natural Science Totapuri Mangoes",
+		"city": "Mandy Red Hills., Chennai",
+		"sinceWhen": "2018",
+		"contactName": "Abhi",
+		"emailId": "Mithuna_Food@gmail.com",
+		"phone": "08048807341"
+	}, {
+		"name": "Lone Industries",
+		"type": "Canned Cherry",
+		"city": "Sem Pora, Srinagar",
+		"sinceWhen": "2018",
+		"contactName": "Mukesh",
+		"emailId": "LoneIndus@gmail.com",
+		"phone": "0804880768"
+	}, {
+		"name": "Bhairavnath Nursery",
+		"type": "Organic Red Dragon Fruits",
+		"city": "kalas, Pune",
+		"sinceWhen": "2014",
+		"contactName": "Bhuvesh",
+		"emailId": "Bhairavnath_Nursery@gmail.com",
+		"phone": "08048807346"
+	}, {
+		"name": "Yashasvi Recycling",
+		"type": "pomegranate",
+		"city": "Kutchmandvi, Dist. Kachchh",
+		"sinceWhen": "2016",
+		"contactName": "Dushyant",
+		"emailId": "YashRecycle@gmail.com",
+		"phone": "08048807654"
+	}, {
+		"name": "Pathway India",
+		"type": "Organic Avocado",
+		"city": "Amalpada, Phulabani, Dist. Kandhamal",
+		"sinceWhen": "2011",
+		"contactName": "Rani",
+		"emailId": "PathwayIndia@gmail.com",
+		"phone": "08048808741"
+	}, {
+		"name": "Gurukripa Ropvatika",
+		"type": "muskmelon",
+		"city": "Ambegaon BK, Osmanabad, Maharashtra",
+		"sinceWhen": "2009",
+		"contactName": "Golu",
+		"emailId": "GurukripaRop@gmail.com",
+		"phone": "08048807345"
+	}, {
+		"name": "Kevico International",
+		"type": "Orange",
+		"city": "Surat,Gujarat",
+		"sinceWhen": "2008",
+		"contactName": "Askshy",
+		"emailId": "KevicoInt@gmail.com",
+		"phone": "08048807376"
+	}]
+}

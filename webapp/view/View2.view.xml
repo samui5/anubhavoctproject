@@ -1,0 +1,38 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="acc.fin.ar.controller.View2"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:f="sap.ui.layout.form">
+	<Page title="View 2" showNavButton="true" navButtonPress="onBack">
+		<content>
+			<!--<Button text="Back" press="onBack"></Button>-->
+			<ObjectHeader intro="{CATEGORY}" title="{NAME}" 
+						  number="{PRICE}" numberUnit="{CURRENCY_CODE}" icon="sap-icon://product"></ObjectHeader>
+						  
+			<IconTabBar>
+				<items>
+					<IconTabFilter key="moreDetails" text="More Details" icon="https://cdn1.iconfinder.com/data/icons/color-bold-style/21/09_1-512.png">
+						<content>
+							<core:Fragment fragmentName="acc.fin.ar.fragments.moreDetails" type="XML"></core:Fragment>
+							
+						</content>
+					</IconTabFilter>
+					<IconTabFilter key="supplier" text="Suppliers" icon="sap-icon://supplier">
+						<content>
+							<core:Fragment fragmentName="acc.fin.ar.fragments.supplierData" type="XML"></core:Fragment>
+						</content>
+					</IconTabFilter>
+					<IconTabFilter key="city" text="Cities" icon="sap-icon://home">
+						<content>
+							<core:Fragment fragmentName="acc.fin.ar.fragments.cities" type="XML"></core:Fragment>
+						</content>
+					</IconTabFilter>
+				</items>
+			</IconTabBar>
+		</content>
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer />
+				<Button text="Save" type="Accept" press="onSave"></Button>
+				<Button text="Cancel" type="Reject" press="onCancel"></Button>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>
